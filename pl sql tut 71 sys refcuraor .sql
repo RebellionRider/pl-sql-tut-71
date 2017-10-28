@@ -1,8 +1,10 @@
 --Script from PL/SQL Tutorial 71 RebellionRider.com
 SET SERVEROUTPUT ON;
 DECLARE
+    --Declare cursor variable of SYS_REFCURSOR type
     cur_var SYS_REFCURSOR;
     
+    --Declare variables for holding data
     f_name  employees.first_name%TYPE;
     emp_sal employees.salary%TYPE;
 BEGIN
